@@ -11,14 +11,6 @@ import javax.swing.JOptionPane;
 public class ExemploJCheckBox01 implements JFrameBaseInterface {
 
     private JFrame jFrame;
-
-    public ExemploJCheckBox01(JFrame jFrame, JCheckBox jCheckBoxEuAceitoOsTermos, JCheckBox jCheckBoxEuLiOsTermos, JButton jButtonSalvar, JButton jButtonLimpar) {
-        this.jFrame = jFrame;
-        this.jCheckBoxEuAceitoOsTermos = jCheckBoxEuAceitoOsTermos;
-        this.jCheckBoxEuLiOsTermos = jCheckBoxEuLiOsTermos;
-        this.jButtonSalvar = jButtonSalvar;
-        this.jButtonLimpar = jButtonLimpar;
-    }
     private JCheckBox jCheckBoxEuAceitoOsTermos, jCheckBoxEuLiOsTermos;
     private JButton jButtonSalvar, jButtonLimpar;
 
@@ -48,7 +40,7 @@ public class ExemploJCheckBox01 implements JFrameBaseInterface {
         jFrame.setSize(500, 500);
         jFrame.setLayout(null);
         jFrame.setLocationRelativeTo(null);
-        jFrame.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        jFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
 
     @Override

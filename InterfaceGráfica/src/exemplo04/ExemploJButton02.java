@@ -8,13 +8,13 @@ import java.awt.event.MouseAdapter;
 
 public class ExemploJButton02 {
 
-    public static void main(String[] args) {
+    public ExemploJButton02() {
 
         JFrame tela = new JFrame("HOVER");
         tela.setSize(500, 500);
         tela.setLayout(null);
         tela.setLocationRelativeTo(null);
-        tela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        tela.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
         JButton botao = new JButton("Não venha aqui");
         botao.setSize(400, 300);

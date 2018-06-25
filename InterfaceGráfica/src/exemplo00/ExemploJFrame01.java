@@ -22,7 +22,7 @@ public class ExemploJFrame01 {
         // diz que quando o usuário fechar a aplicação
         // irá encerrar o aplicativo
         tela.setDefaultCloseOperation(
-                JFrame.EXIT_ON_CLOSE);
+                JFrame.DISPOSE_ON_CLOSE);
 
         // define o título da janela
         tela.setTitle("HELLO WORLD");

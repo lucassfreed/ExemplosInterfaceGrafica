@@ -61,7 +61,7 @@ public class ExemploJTable01 implements JFrameBaseInterface {
         jFrame.setSize(500, 500);
         jFrame.setLayout(null);
         jFrame.setLocationRelativeTo(null);
-        jFrame.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        jFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
 
     @Override

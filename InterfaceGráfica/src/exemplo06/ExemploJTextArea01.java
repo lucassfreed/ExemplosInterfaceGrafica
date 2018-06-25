@@ -26,7 +26,7 @@ public class ExemploJTextArea01 {
         jFrame = new JFrame("Exemplo JTextArea");
         jFrame.setSize(500, 500);
         jFrame.setLayout(null);
-        jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         jFrame.setLocationRelativeTo(null);
     }
 
